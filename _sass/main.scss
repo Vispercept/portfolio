@@ -1,0 +1,145 @@
+.section {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (max-width: $width) {
+    width: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+    margin-top: 8em !important;
+    margin-bottom: 8em !important;
+    height: auto !important;
+  }
+
+  &--intro {
+    height: 100vh;
+    margin-bottom: 3em;
+  }
+
+  &--2 {
+    margin-bottom: 12em;
+  }
+
+  &--3 {
+    margin-bottom: 20em;
+  }
+
+  &--4 {
+    margin-bottom: 20em;
+  }
+
+  &__inner {
+    position: relative;
+    min-width: 50%;
+
+    &--right {
+      text-align: right;
+      width: 100%;
+
+      @media only screen and (max-width: $width) {
+        text-align: inherit;
+      }
+    }
+  }
+
+  &__image {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-7.5em);
+    z-index: 0;
+
+    @media only screen and (max-width: $width) {
+      display: none;
+    }
+  }
+
+  &__header {
+    position: absolute;
+    bottom: 100%;
+    font-weight: 900;
+    font-size: 7em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    z-index: -1;
+
+    @media only screen and (max-width: $width) {
+      font-size: 3em;
+      white-space: normal;
+      transform: translateY(-.3em) !important;
+      bottom: 100% !important;
+      left: 0 !important;
+    }
+
+    &--1 {
+      transform: translate(-.5em, .3em);
+      color: $c4;
+    }
+
+    &--2 {
+      transform: translate(-.5em, .3em);
+      color: $c4;
+    }
+
+    &--3 {
+      right: 0;
+      bottom: 0;
+      transform: translate(.8em, .2em);
+      color: $c4;
+    }
+
+    &--4 {
+      left: 0;
+      transform: translate(-1em, .4em);
+      color: $c4;
+    }
+
+    &--5 {
+      right: 0;
+      transform: translate(1em, .4em);
+      color: $c4;
+    }
+  }
+
+  &__headline {
+    font-size: 1.8em;
+  }
+
+  &__paragraph {
+    display: block;
+    font-weight: 700;
+    z-index: 1;
+    margin-bottom: 1em;
+  }
+}
+
+.link {
+  position: relative;
+  color: $textColor;
+  // text-decoration: none;
+  transition: background-color .2s, color .2s;
+
+  &:hover {
+    background-color: $textColor;
+    color: $backgroundColor;
+  }
+
+  &__image {
+    width: 25px;
+    padding: .5em .2em;
+  }
+}
+
+
+.project {
+
+  &__title {
+    font-size: 2em;
+  }
+}

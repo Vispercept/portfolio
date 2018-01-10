@@ -1,22 +1,33 @@
 # ----
 # Site
 
-title: Thomas König Portfolio
+title: Thomas Königs Portfolio - Fullstack Web Developer in Munich
+description: Learn something about Thomas König. Fullstack Web Developer in Munich!
 url: http://portfolio.koenigthomas.de/
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-description: Thomas Königs portfolio website
-author:
-  name: Thomas König
-  email: mail@koenigthomas.de
-  twitter: tmskng
+author: Thomas König mail@koenigthomas.de
 social:
   name: Thomas König Portfolio
   links:
     - https://github.com/vispercept
+    - https://github.com/nicewebsites
+    - https://de.linkedin.com/in/thomas-könig-6414176b
+    - https://www.xing.com/profile/Thomas_Koenig202
+    - https://twitter.com/tmskng
+google_site_verification: k_sbuaryqKZYAEH8jbSu97qCNVPhn-Gb5fLH3zq3mjI
 
 # -----
 # Build
+
+# -------------
+# jekyll-assets
+#--------------
+assets:
+  compression: true
+  gzip: true
+  sources:
+    - _assets/javascript
+    - _assets/_sass
 
 permalink: pretty
 
@@ -40,6 +51,7 @@ defaults:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-assets
 
 exclude:
   - Gemfile

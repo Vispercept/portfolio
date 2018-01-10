@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="author" content="Thomas König">
     <meta name="geo.placename" content="München">
     <meta name="robots" content="all">
-    <meta name="description" content="Thomas König, Full-Stack Software-Entwickler in München.">
-    <meta name="keywords"
-          content="Thomas, König, München, Web, Webdevelopment, Softwaredevelopment, Full-Stack, Javascript, Node.js"/>
-    <meta name="google-site-verification" content="k_sbuaryqKZYAEH8jbSu97qCNVPhn-Gb5fLH3zq3mjI" />
-    <title>Thomas Königs Portfolio - {{title}}</title>
+    <meta name="keywords" content="Thomas, König, München, Web, Webdevelopment, Softwaredevelopment, Full-Stack, Javascript, Node.js"/>
     <link rel="canonical" href="http://www.koenigthomas.de/">
-    <link rel="stylesheet" href="css/screen.css">
+    {% seo %}
+    <style>
+      {% asset critical.scss %}
+    </style>
   </head>
   <body>
     {{ content }}
+    <script>
+      {% asset critical.js %}
+    </script>
   </body>
 </html>

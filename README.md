@@ -1,8 +1,11 @@
 # portfolio
 My personal website
 
-[visit the portfolio](vispercept.github.io/portfolio)
+Visit:
+[http://portfolio.koenigthomas.de/](http://portfolio.koenigthomas.de/)
+[http://portfolio.koenigthomas.de/](http://portfolio.koenigthomas.de/)
 
 ## Commands
+Install: `bundle install`
 Development: `bundle exec jekyll serve`
 Build: `bundle exec jekyll build`

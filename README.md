@@ -2,7 +2,7 @@
 My personal website
 
 Visit:
-[nicewebsites.github.io/portfolio](nicewebsites.github.io/portfolio)
+[http://nicewebsites.github.io/portfolio](http://nicewebsites.github.io/portfolio)
 [http://portfolio.koenigthomas.de/](http://portfolio.koenigthomas.de/)
 
 ## Commands

@@ -9,3 +9,7 @@ Visit:
 Install: `bundle install`
 Development: `bundle exec jekyll serve`
 Build: `bundle exec jekyll build`
+
+
+## do this
+http://codeheaven.io/optimizing-assets-in-jekyll-generated-gh-pages/

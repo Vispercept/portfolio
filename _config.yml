@@ -19,16 +19,6 @@ google_site_verification: k_sbuaryqKZYAEH8jbSu97qCNVPhn-Gb5fLH3zq3mjI
 # -----
 # Build
 
-# -------------
-# jekyll-assets
-#--------------
-assets:
-  compression: true
-  gzip: true
-  sources:
-    - _assets/javascript
-    - _assets/_sass
-
 permalink: pretty
 
 defaults:
@@ -51,7 +41,6 @@ defaults:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-assets
 
 exclude:
   - Gemfile

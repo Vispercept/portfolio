@@ -41,6 +41,7 @@ defaults:
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll_image_encode
 
 exclude:
   - Gemfile

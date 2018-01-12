@@ -13,5 +13,3 @@ Build: `bundle exec jekyll build`
 
 ## open todos
 - update responsiveness
-- favicon
-- no svg requests

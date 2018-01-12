@@ -70,11 +70,8 @@
     white-space: nowrap;
 
     @media only screen and (max-width: $width) {
-      font-size: 3em;
-      white-space: normal;
-      transform: translateY(-.3em) !important;
-      bottom: 100% !important;
-      left: 0 !important;
+      font-size: 4em;
+      transform: translate(0.5em, -.8em) !important;
     }
 
     &--1 {
@@ -118,7 +115,6 @@
 .link {
   position: relative;
   color: $textColor;
-  // text-decoration: none;
   transition: background-color .2s, color .2s;
 
   &:hover {
@@ -126,9 +122,8 @@
     color: $backgroundColor;
   }
 
-  &__image {
-    width: 25px;
-    padding: .5em .2em;
+  &--icon {
+    text-decoration: none;
   }
 }
 

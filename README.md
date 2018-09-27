@@ -3,7 +3,7 @@ My personal website
 
 Visit:
 [http://nicewebsites.github.io/portfolio](http://nicewebsites.github.io/portfolio)
-[http://portfolio.koenigthomas.de/](http://portfolio.koenigthomas.de/)
+[http://koenigthomas.de/](http://koenigthomas.de/)
 
 ## Commands
 Install: `bundle install`

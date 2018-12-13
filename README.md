@@ -6,6 +6,7 @@ Visit:
 [http://koenigthomas.de/](http://koenigthomas.de/)
 
 ## Commands
+Setup: Bundler is needed so you might need to run `gem install bundler jekyll` first
 Install: `bundle install`
 Development: `bundle exec jekyll serve`
 Build: `bundle exec jekyll build`

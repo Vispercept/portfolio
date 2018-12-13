@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 
   @media only screen and (max-width: $width) {
     width: 100%;
@@ -24,6 +23,7 @@
   &--footer {
     @media only screen and (max-width: $width) {
       padding-bottom: 13em;
+      overflow: hidden;
     }
   }
 
